@@ -39,12 +39,12 @@ public class CategoryServiceImpl implements CategoryService {
         categoryRepository.deleteById(category.getId());
 
     }
-
-    @Override
-    public Category updateCategory(String newname,String name) {
-        Category category= categoryRepository.findCategoryByName(name);
-        category.setName(newname);
-        categoryRepository.save(category);
-        return category;
-    }
+//
+//    @Override
+//    public Category updateCategory(String newname,String name) {
+//        Category category= categoryRepository.findCategoryByName(name);
+//        category.setName(newname);
+//        categoryRepository.save(category);
+//        return category;
+//    }
 }

@@ -10,5 +10,4 @@ public interface CategoryService {
     Category findCategoryByName(String name);
     Category saveCategory(Category category);
     public void deleteCategory(String name) ;
-    Category updateCategory(String newname,String name) ;
 }

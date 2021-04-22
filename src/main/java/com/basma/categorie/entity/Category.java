@@ -9,6 +9,7 @@ public class Category implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_category")
     private Long id;
     @Column(name = "category_name")
     private String name;
